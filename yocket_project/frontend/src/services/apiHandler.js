@@ -2,7 +2,7 @@ import axios from "axios";
 import apiConfig from "./apiConfig.json";
 
 const client = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://yocket-xiqd.onrender.com",
 });
 
 export const ApiHandler = ({
