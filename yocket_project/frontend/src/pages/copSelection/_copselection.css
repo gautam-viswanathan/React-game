@@ -1,0 +1,39 @@
+.cop-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+}
+
+.cop-selection-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 48px;
+}
+.cop-selection-subheader {
+  padding-top: 40px;
+  font-size: 24px;
+  width: 700px;
+  color: white;
+  text-align: center;
+}
+.cop-card-placement {
+  display: flex;
+  gap: 80px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.next-btn-cop {
+  background-color: #912bbc;
+  color: white;
+  outline: none;
+  height: 48px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}

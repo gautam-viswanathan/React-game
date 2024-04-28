@@ -1,0 +1,44 @@
+{
+  "api": {
+    "cops": {
+      "url": "/selection/cops",
+      "method": "GET",
+      "contentType": "application/json"
+    },
+    "locations": {
+      "url": "/selection/locations",
+      "method": "GET",
+      "contentType": "application/json"
+    },
+    "vehicles": {
+      "url": "/selection/vehicle",
+      "method": "GET",
+      "contentType": "application/json"
+    },
+    "updateCops": {
+      "url": "/selection/cop/update",
+      "method": "POST",
+      "contentType": "application/json"
+    },
+    "updateLocation": {
+      "url": "/selection/location/update",
+      "method": "POST",
+      "contentType": "application/json"
+    },
+    "updateVehicle": {
+      "url": "/selection/vehicles/update",
+      "method": "POST",
+      "contentType": "application/json"
+    },
+    "capture": {
+      "url": "/selection/capture",
+      "method": "GET",
+      "contentType": "application/json"
+    },
+    "endGame": {
+      "url": "/selection/endgame",
+      "method": "POST",
+      "contentType": "application/json"
+    }
+  }
+}

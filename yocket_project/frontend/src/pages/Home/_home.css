@@ -1,0 +1,51 @@
+.home-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(12, 12, 12, 0.72),
+      rgba(145, 43, 188, 0.3)
+    ),
+    url(../../../public/images/Criminal.png);
+  background-size: cover;
+}
+
+.header-home {
+  color: white;
+  text-transform: capitalize;
+  font-size: 64px;
+  height: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+.game-description {
+  background-color: rgba(12, 12, 12, 0.3);
+  width: 900px;
+  color: white;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 32px;
+}
+.game-desc-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40%;
+  padding-bottom: 48px;
+}
+.game-btn {
+  background-color: #912bbc;
+  color: white;
+  outline: none;
+  height: 48px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}

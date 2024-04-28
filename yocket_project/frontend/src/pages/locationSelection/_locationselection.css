@@ -1,0 +1,48 @@
+.location-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(12, 12, 12, 1),
+    rgba(21, 3, 44, 0.8)
+  );
+  overflow: auto;
+}
+.city-detail-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 300px auto;
+  column-gap: 120px;
+  row-gap: 120px;
+  padding-bottom: 80px;
+}
+
+.location-selection-header {
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #ffc55a;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.location-selection-task-explanation {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 32px;
+  color: #6d9886;
+}
+.next-btn {
+  background-color: #912bbc;
+  color: white;
+  outline: none;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 80px;
+}

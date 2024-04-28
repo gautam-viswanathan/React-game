@@ -1,0 +1,24 @@
+.vehicle-card-container {
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+  background: #45474b;
+}
+.vehicle-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 225px;
+}
+.vehicle-text {
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.selected-vehicle {
+  border: 4px solid #2c4e80;
+}

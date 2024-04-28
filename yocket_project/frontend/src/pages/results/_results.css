@@ -1,0 +1,89 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 80px;
+}
+.captured {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 197, 90, 0.9),
+    rgba(238, 228, 177, 0.3)
+  );
+}
+.uncaptured {
+  background: linear-gradient(
+    to bottom,
+    rgba(67, 10, 93, 0.9),
+    rgba(238, 228, 177, 0.3)
+  );
+}
+.criminal-card {
+  width: 325px;
+  height: 300px;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.criminal-image {
+  width: 325px;
+  height: 225px;
+}
+.fugitive-location {
+  padding-top: 16px;
+  color: aliceblue;
+  padding-bottom: 8px;
+}
+.fugitive-status {
+  color: white;
+}
+.cops-location-result {
+  display: flex;
+  gap: 80px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.fugitive-captured {
+  color: #ffc55a;
+  text-transform: capitalize;
+}
+.fugitive-missing {
+  color: red;
+  text-transform: capitalize;
+}
+.results-location {
+  color: #6d9886;
+}
+.results-header {
+  font-size: 32px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.captured-result {
+  color: #35374b;
+  text-transform: capitalize;
+}
+
+.uncaptured-result {
+  color: #ffc55a;
+  text-transform: capitalize;
+}
+.result-btn {
+  color: white;
+  outline: none;
+  height: 48px;
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.success {
+  background-color: #912bbc;
+}
+.failure {
+  background: red;
+}

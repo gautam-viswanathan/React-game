@@ -1,0 +1,42 @@
+.image-card-container {
+  width: 325px;
+  height: 350px;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  display: flex;
+  flex-direction: column;
+}
+.location-img {
+  width: 325px;
+  height: 225px;
+}
+
+.location-details {
+  color: #ffc55a;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.distance-indicator {
+  color: #872341;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.distance-actual {
+  color: #6d9886;
+  padding-left: 16px;
+}
+.location-description {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #6d9886;
+  text-transform: capitalize;
+}
+.selected-location {
+  border: 2px solid #ffc55a;
+}

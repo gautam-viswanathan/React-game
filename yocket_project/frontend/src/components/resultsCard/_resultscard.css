@@ -1,0 +1,24 @@
+.result-card-container {
+  height: 275px;
+  width: 250px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #45474b;
+}
+.results-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 225px;
+}
+
+.location-results {
+  color: #6d9886;
+}
+.results-number-text {
+  color: white;
+  padding-top: 4px;
+}

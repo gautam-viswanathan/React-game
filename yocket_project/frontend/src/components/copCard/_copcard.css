@@ -1,0 +1,28 @@
+.cop-card-container {
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+  background: #45474b;
+}
+.cop-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 225px;
+}
+.cop-selected-card {
+  border: 2px solid #912bbc;
+  outline: #912bbc;
+  height: 250px;
+  width: 250px;
+  background: #45474b;
+}
+.cop-number-text {
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
