@@ -73,9 +73,6 @@ const LocationSelection: React.FC<ILocationSelectionProps> = () => {
             );
           })}
       </div>
-      <div>
-        <span>Available vehicles</span>
-      </div>
       <button
         className="next-btn"
         onClick={() => {
